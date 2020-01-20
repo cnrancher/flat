@@ -1,0 +1,4 @@
+FROM rancher/net:v0.13.4
+
+COPY start-flat.sh /usr/bin/start-flat.sh
+RUN chmod +x /usr/bin/start-flat.sh
